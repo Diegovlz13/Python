@@ -1,0 +1,1 @@
+print(f'\tHeraclitus once said, "No man ever steps in the same river twice."')
