@@ -19,3 +19,28 @@ print(type(entero))
 decimal = float(entero)
 print(decimal)
 print(type(decimal))
+# Operaciones con números enteros
+print(10 + 5)
+print(10 - 5) 
+print(10 * 5) 
+print(10 / 5) # Siempre devuelve un número decimal
+print(10 ** 5) # Potencia
+# Operaciones con números decimales
+print(10.5 + 5.5)
+print(10.5 - 5.5)
+print(10.5 * 5.5)
+print(10.5 / 5.5)
+print(10.5 ** 5.5)
+# Operación con ambos tipos de números
+print(10 + 5.5) # Siempre devuelve un número decimal
+
+# Una forma de representar números largos
+universe_age = 14_000_000_000 # Solo lo hace más legible
+print(universe_age) # Cuando lo imprime no muestra los guiones bajos
+
+# Asignación múltiple
+x, y, z = 1, 2, 3 # Sirve para asignar varios valores a varias variables
+print(x, y, z)
+
+# Constantes son valores que no cambian durante la ejecución del programa
+PI = 3.14159 # Se recomienda usar mayúsculas para indicar que es una constante
