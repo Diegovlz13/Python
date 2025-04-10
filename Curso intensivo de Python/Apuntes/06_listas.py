@@ -19,18 +19,34 @@ motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles)
 motorcycles[0] = 'ducati'  # Cambia el primer elemento
 print(motorcycles)
+
 # Añadir elementos a la lista
 motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles)
 motorcycles.append('ducati')  # Añade un elemento al final de la lista
 print(motorcycles)
+
 # Insertar un elemento en una posición específica
 motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles)
 motorcycles.insert(0, 'ducati')  # Inserta un elemento en la posición 0
 print(motorcycles)
+
 # Eliminar un elemento de la lista en una posición específica
 motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles)
 del motorcycles[1]  # Elimina el elemento en la posición 1
 print(motorcycles)
+
+# Eliminar el último elemento de la lista y trabajarlo
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+popped_motorcycle = motorcycles.pop()  # Elimina el último elemento y lo guarda en una variable
+print(motorcycles)
+print(f'The last motorcycle I owned was a {popped_motorcycle.title()}')
+# Tambien se puede eliminar un elemento en una posición específica
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+popped_motorcycle = motorcycles.pop(0)  # Elimina el elemento en la posición 1 y lo guarda en una variable
+print(motorcycles)
+print(f'The first motorcycle I owned was a {popped_motorcycle.title()}')
